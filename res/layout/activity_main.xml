@@ -1,0 +1,135 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#ffffffff">
+    
+	<ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp" >
+
+            <CheckedTextView
+                android:id="@+id/ctvStWm"
+                android:layout_width="fill_parent"
+                android:layout_height="44dp"
+                android:layout_margin="5dp"
+                android:drawableLeft="@drawable/cb_drw"
+                android:drawablePadding="5dp"
+                android:gravity="center_vertical"
+                android:text="@string/share_to_moment"
+                android:textColor="#ff000000"
+                android:textSize="16dp" />
+			
+		    <Button
+		        android:id="@+id/button1"
+                android:layout_width="fill_parent"
+                android:layout_height="44dp"
+                android:layout_margin="5dp"
+		        android:text="快捷分享" />
+    
+            <Button
+                android:id="@+id/btnUpdate"
+                android:layout_width="fill_parent"
+                android:layout_height="44dp"
+                android:layout_margin="5dp"
+                android:text="@string/update"
+                android:textSize="16dp" />
+
+            <Button
+                android:id="@+id/btnUpload"
+                android:layout_width="fill_parent"
+                android:layout_height="44dp"
+                android:layout_margin="5dp"
+                android:text="@string/image_upload"
+                android:textSize="16dp" />
+
+            <Button
+                android:id="@+id/btnUploadBm"
+                android:layout_width="fill_parent"
+                android:layout_height="44dp"
+                android:layout_margin="5dp"
+                android:text="@string/image_upload_bitmap"
+                android:textSize="16dp" />
+
+            <Button
+                android:id="@+id/btnUploadUrl"
+                android:layout_width="fill_parent"
+                android:layout_height="44dp"
+                android:layout_margin="5dp"
+                android:text="@string/image_upload_url"
+                android:textSize="16dp" />
+
+            <Button
+                android:id="@+id/btnMusic"
+                android:layout_width="fill_parent"
+                android:layout_height="44dp"
+                android:layout_margin="5dp"
+                android:text="@string/music_upload"
+                android:textSize="16dp" />
+
+            <Button
+                android:id="@+id/btnVideo"
+                android:layout_width="fill_parent"
+                android:layout_height="44dp"
+                android:layout_margin="5dp"
+                android:text="@string/video_upload"
+                android:textSize="16dp" />
+
+            <Button
+                android:id="@+id/btnWebpage"
+                android:layout_width="fill_parent"
+                android:layout_height="44dp"
+                android:layout_margin="5dp"
+                android:text="@string/webpage_upload"
+                android:textSize="16dp" />
+
+            <Button
+                android:id="@+id/btnWebpageBm"
+                android:layout_width="fill_parent"
+                android:layout_height="44dp"
+                android:layout_margin="5dp"
+                android:text="@string/webpage_upload_bitmap"
+                android:textSize="16dp" />
+
+            <Button
+                android:id="@+id/btnWebpageUrl"
+                android:layout_width="fill_parent"
+                android:layout_height="44dp"
+                android:layout_margin="5dp"
+                android:text="@string/webpage_upload_url"
+                android:textSize="16dp" />
+
+            <Button
+                android:id="@+id/btnApp"
+                android:layout_width="fill_parent"
+                android:layout_height="44dp"
+                android:layout_margin="5dp"
+                android:text="@string/app_upload"
+                android:textSize="16dp" />
+
+            <Button
+                android:id="@+id/btnAppExt"
+                android:layout_width="fill_parent"
+                android:layout_height="44dp"
+                android:layout_margin="5dp"
+                android:text="@string/app_upload_extinfo"
+                android:textSize="16dp" />
+
+            <Button
+                android:id="@+id/btnFile"
+                android:layout_width="fill_parent"
+                android:layout_height="44dp"
+                android:layout_margin="5dp"
+                android:text="@string/file_upload"
+                android:textSize="16dp" />
+        </LinearLayout>
+    </ScrollView>
+	
+</RelativeLayout>

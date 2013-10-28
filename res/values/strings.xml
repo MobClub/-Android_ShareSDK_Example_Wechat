@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ShareSDK_Example_Wechat</string>
+	<string name="update">文字分享</string>
+    <string name="image_upload">图片分享（本地图片）</string>
+	<string name="image_upload_bitmap">图片分享（Bitmap对象）</string>
+	<string name="image_upload_url">图片分享（网络图片）</string>
+	<string name="music_upload">音乐分享</string>
+	<string name="video_upload">视频分享</string>
+	<string name="webpage_upload">网页分享（本地图片）</string>
+	<string name="webpage_upload_bitmap">网页分享（Bitmap对象）</string>
+	<string name="webpage_upload_url">网页分享（网络图片）</string>
+	<string name="app_upload">应用分享（携带文件）</string>
+	<string name="app_upload_extinfo">应用分享（携带脚本）</string>
+	<string name="file_upload">文件分享</string>
+	<string name="share_to_moment">分享到朋友圈</string>
+</resources>
